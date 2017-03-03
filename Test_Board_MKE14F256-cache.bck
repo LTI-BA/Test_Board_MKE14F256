@@ -1,0 +1,249 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS7947
+D DA Converter 8 bits
+K DAC CNA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/DAC08.pdf
+$ENDCMP
+#
+$CMP APE8865N-15-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-16-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.6V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-17-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.7V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-18-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-19-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-20-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.0V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-21-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.1V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-22-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.2V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-23-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.3V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-24-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.4V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-25-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-26-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.6V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-27-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.7V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-28-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-29-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.9V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-30-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-31-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.1V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-32-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.2V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865N-33-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-15-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-16-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.6V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-17-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.7V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-18-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-19-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-20-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.0V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-21-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.1V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-22-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.2V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-23-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.3V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-24-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.4V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-25-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-26-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.6V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-27-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.7V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-28-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-29-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 2.9V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-30-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-31-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.1V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-32-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.2V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP APE8865Y5-33-HF-3
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP AS431
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+$CMP MIC2288
+D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.a-powerusa.com/docs/APE8865-3.pdf
+$ENDCMP
+#
+#End Doc Library
