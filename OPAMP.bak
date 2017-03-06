@@ -1,0 +1,693 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Test_Board_MKE14F256-cache
+LIBS:uSD_push-push_ebay
+LIBS:kinetis
+LIBS:mic2288
+LIBS:mke14f256_lqfp64
+LIBS:TS30042
+LIBS:as431
+LIBS:REF3030
+LIBS:ads7947
+LIBS:NEU
+LIBS:ads7947X
+LIBS:ADS7944
+LIBS:NCP700B
+LIBS:mke14f256
+LIBS:mh-diodes
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 5
+Title "Current Sharing Controller"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 58BDE970
+P 3550 1850
+F 0 "R?" V 3630 1850 50  0000 C CNN
+F 1 "1M" V 3550 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 3480 1850 50  0001 C CNN
+F 3 "" H 3550 1850 50  0000 C CNN
+	1    3550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58BDE971
+P 3550 2750
+F 0 "R?" V 3630 2750 50  0000 C CNN
+F 1 "7.5k" V 3550 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3480 2750 50  0001 C CNN
+F 3 "" H 3550 2750 50  0000 C CNN
+	1    3550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE972
+P 3850 2600
+F 0 "C?" H 3860 2670 50  0000 L CNN
+F 1 "100p" H 3860 2520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3850 2600 50  0001 C CNN
+F 3 "" H 3850 2600 50  0000 C CNN
+	1    3850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2000 3550 2600
+Wire Wire Line
+	3550 2900 3550 3050
+Wire Wire Line
+	3850 2700 3850 3050
+Text GLabel 3550 1600 1    60   Input ~ 0
+V_in_1
+Wire Wire Line
+	3550 1700 3550 1600
+Text GLabel 5250 2450 2    39   Output ~ 0
+ADC_1
+$Comp
+L C_Small C?
+U 1 1 58BDE973
+P 4700 1950
+F 0 "C?" H 4710 2020 50  0000 L CNN
+F 1 "100n" H 4710 1870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4700 1950 50  0001 C CNN
+F 3 "" H 4700 1950 50  0000 C CNN
+	1    4700 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4550 1950
+Wire Wire Line
+	4800 1950 4950 1950
+Wire Wire Line
+	4550 2750 4550 3050
+$Comp
+L MCP6004 U?
+U 1 1 58BDE974
+P 4650 2450
+F 0 "U?" H 4700 2650 50  0000 C CNN
+F 1 "TSV524A" H 4800 2250 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 4600 2550 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/94/16/69/af/4b/58/DM00047334.pdf/files/DM00047334.pdf/jcr:content/translations/en.DM00047334.pdf" H 4700 2650 50  0001 C CNN
+	1    4650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2500 3850 2350
+Wire Wire Line
+	4600 1950 4550 1950
+Wire Wire Line
+	4950 2450 5250 2450
+Wire Wire Line
+	4350 2550 4150 2550
+Wire Wire Line
+	4150 2550 4150 2850
+Wire Wire Line
+	4150 2850 5000 2850
+Wire Wire Line
+	5000 2850 5000 2450
+Connection ~ 5000 2450
+Wire Wire Line
+	4550 1700 4550 2150
+Wire Wire Line
+	3550 2350 4350 2350
+Connection ~ 3550 2350
+Connection ~ 3850 2350
+$Comp
+L +3.3V #PWR?
+U 1 1 58BDE975
+P 4550 1700
+F 0 "#PWR?" H 4550 1550 50  0001 C CNN
+F 1 "+3.3V" H 4550 1840 50  0000 C CNN
+F 2 "" H 4550 1700 50  0000 C CNN
+F 3 "" H 4550 1700 50  0000 C CNN
+	1    4550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE976
+P 4550 3050
+F 0 "#PWR?" H 4550 2800 50  0001 C CNN
+F 1 "GND" H 4550 2900 50  0000 C CNN
+F 2 "" H 4550 3050 50  0000 C CNN
+F 3 "" H 4550 3050 50  0000 C CNN
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE977
+P 3850 3050
+F 0 "#PWR?" H 3850 2800 50  0001 C CNN
+F 1 "GND" H 3850 2900 50  0000 C CNN
+F 2 "" H 3850 3050 50  0000 C CNN
+F 3 "" H 3850 3050 50  0000 C CNN
+	1    3850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE978
+P 3550 3050
+F 0 "#PWR?" H 3550 2800 50  0001 C CNN
+F 1 "GND" H 3550 2900 50  0000 C CNN
+F 2 "" H 3550 3050 50  0000 C CNN
+F 3 "" H 3550 3050 50  0000 C CNN
+	1    3550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE979
+P 4950 1950
+F 0 "#PWR?" H 4950 1700 50  0001 C CNN
+F 1 "GND" H 4950 1800 50  0000 C CNN
+F 2 "" H 4950 1950 50  0000 C CNN
+F 3 "" H 4950 1950 50  0000 C CNN
+	1    4950 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE97A
+P 5150 2650
+F 0 "C?" H 5160 2720 50  0000 L CNN
+F 1 "18p" H 5160 2570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5150 2650 50  0001 C CNN
+F 3 "" H 5150 2650 50  0000 C CNN
+	1    5150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2550 5150 2450
+Connection ~ 5150 2450
+$Comp
+L GND #PWR?
+U 1 1 58BDE97B
+P 5150 2800
+F 0 "#PWR?" H 5150 2550 50  0001 C CNN
+F 1 "GND" H 5150 2650 50  0000 C CNN
+F 2 "" H 5150 2800 50  0000 C CNN
+F 3 "" H 5150 2800 50  0000 C CNN
+	1    5150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2750 5150 2800
+Text Notes 3500 4050 0    140  ~ 0
+Voltage Sense 1\n
+$Comp
+L R R?
+U 1 1 58BDE97C
+P 11450 1850
+F 0 "R?" V 11530 1850 50  0000 C CNN
+F 1 "1M" V 11450 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 11380 1850 50  0001 C CNN
+F 3 "" H 11450 1850 50  0000 C CNN
+	1    11450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58BDE97D
+P 11450 2750
+F 0 "R?" V 11530 2750 50  0000 C CNN
+F 1 "7.5k" V 11450 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11380 2750 50  0001 C CNN
+F 3 "" H 11450 2750 50  0000 C CNN
+	1    11450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE97E
+P 11750 2600
+F 0 "C?" H 11760 2670 50  0000 L CNN
+F 1 "100p" H 11760 2520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11750 2600 50  0001 C CNN
+F 3 "" H 11750 2600 50  0000 C CNN
+	1    11750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 2000 11450 2600
+Wire Wire Line
+	11450 2900 11450 3050
+Wire Wire Line
+	11750 2700 11750 3050
+Text GLabel 11450 1600 1    60   Input ~ 0
+V_in_2
+Wire Wire Line
+	11450 1700 11450 1600
+Text GLabel 13150 2450 2    39   Output ~ 0
+ADC_2
+Wire Wire Line
+	12450 2750 12450 3050
+$Comp
+L MCP6004 U?
+U 1 1 58BDE97F
+P 12550 2450
+F 0 "U?" H 12600 2650 50  0000 C CNN
+F 1 "TSV524A" H 12700 2250 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 12500 2550 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/94/16/69/af/4b/58/DM00047334.pdf/files/DM00047334.pdf/jcr:content/translations/en.DM00047334.pdf" H 12600 2650 50  0001 C CNN
+	1    12550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 2500 11750 2350
+Wire Wire Line
+	12850 2450 13150 2450
+Wire Wire Line
+	12250 2550 12050 2550
+Wire Wire Line
+	12050 2550 12050 2850
+Wire Wire Line
+	12050 2850 12900 2850
+Wire Wire Line
+	12900 2850 12900 2450
+Connection ~ 12900 2450
+Wire Wire Line
+	12450 1700 12450 2150
+Wire Wire Line
+	11450 2350 12250 2350
+Connection ~ 11450 2350
+Connection ~ 11750 2350
+$Comp
+L +3.3V #PWR?
+U 1 1 58BDE980
+P 12450 1700
+F 0 "#PWR?" H 12450 1550 50  0001 C CNN
+F 1 "+3.3V" H 12450 1840 50  0000 C CNN
+F 2 "" H 12450 1700 50  0000 C CNN
+F 3 "" H 12450 1700 50  0000 C CNN
+	1    12450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE981
+P 12450 3050
+F 0 "#PWR?" H 12450 2800 50  0001 C CNN
+F 1 "GND" H 12450 2900 50  0000 C CNN
+F 2 "" H 12450 3050 50  0000 C CNN
+F 3 "" H 12450 3050 50  0000 C CNN
+	1    12450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE982
+P 11750 3050
+F 0 "#PWR?" H 11750 2800 50  0001 C CNN
+F 1 "GND" H 11750 2900 50  0000 C CNN
+F 2 "" H 11750 3050 50  0000 C CNN
+F 3 "" H 11750 3050 50  0000 C CNN
+	1    11750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE983
+P 11450 3050
+F 0 "#PWR?" H 11450 2800 50  0001 C CNN
+F 1 "GND" H 11450 2900 50  0000 C CNN
+F 2 "" H 11450 3050 50  0000 C CNN
+F 3 "" H 11450 3050 50  0000 C CNN
+	1    11450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE984
+P 13050 2650
+F 0 "C?" H 13060 2720 50  0000 L CNN
+F 1 "18p" H 13060 2570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 13050 2650 50  0001 C CNN
+F 3 "" H 13050 2650 50  0000 C CNN
+	1    13050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 2550 13050 2450
+Connection ~ 13050 2450
+$Comp
+L GND #PWR?
+U 1 1 58BDE985
+P 13050 2800
+F 0 "#PWR?" H 13050 2550 50  0001 C CNN
+F 1 "GND" H 13050 2650 50  0000 C CNN
+F 2 "" H 13050 2800 50  0000 C CNN
+F 3 "" H 13050 2800 50  0000 C CNN
+	1    13050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 2750 13050 2800
+Text Notes 11450 4200 0    140  ~ 0
+Voltage Sense 2\n\n
+$Comp
+L R R?
+U 1 1 58BDE986
+P 3600 5400
+F 0 "R?" V 3680 5400 50  0000 C CNN
+F 1 "1M" V 3600 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 3530 5400 50  0001 C CNN
+F 3 "" H 3600 5400 50  0000 C CNN
+	1    3600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58BDE987
+P 3600 6300
+F 0 "R?" V 3680 6300 50  0000 C CNN
+F 1 "7.5k" V 3600 6300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3530 6300 50  0001 C CNN
+F 3 "" H 3600 6300 50  0000 C CNN
+	1    3600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE988
+P 3900 6150
+F 0 "C?" H 3910 6220 50  0000 L CNN
+F 1 "100p" H 3910 6070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3900 6150 50  0001 C CNN
+F 3 "" H 3900 6150 50  0000 C CNN
+	1    3900 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5550 3600 6150
+Wire Wire Line
+	3600 6450 3600 6600
+Wire Wire Line
+	3900 6250 3900 6600
+Text GLabel 3600 5150 1    60   Input ~ 0
+V_in_3
+Wire Wire Line
+	3600 5250 3600 5150
+Text GLabel 5300 6000 2    39   Output ~ 0
+ADC_3
+Wire Wire Line
+	4600 6300 4600 6600
+$Comp
+L MCP6004 U?
+U 1 1 58BDE989
+P 4700 6000
+F 0 "U?" H 4750 6200 50  0000 C CNN
+F 1 "TSV524A" H 4850 5800 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 4650 6100 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/94/16/69/af/4b/58/DM00047334.pdf/files/DM00047334.pdf/jcr:content/translations/en.DM00047334.pdf" H 4750 6200 50  0001 C CNN
+	1    4700 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6050 3900 5900
+Wire Wire Line
+	5000 6000 5300 6000
+Wire Wire Line
+	4400 6100 4200 6100
+Wire Wire Line
+	4200 6100 4200 6400
+Wire Wire Line
+	4200 6400 5050 6400
+Wire Wire Line
+	5050 6400 5050 6000
+Connection ~ 5050 6000
+Wire Wire Line
+	4600 5250 4600 5700
+Wire Wire Line
+	3600 5900 4400 5900
+Connection ~ 3600 5900
+Connection ~ 3900 5900
+$Comp
+L +3.3V #PWR?
+U 1 1 58BDE98A
+P 4600 5250
+F 0 "#PWR?" H 4600 5100 50  0001 C CNN
+F 1 "+3.3V" H 4600 5390 50  0000 C CNN
+F 2 "" H 4600 5250 50  0000 C CNN
+F 3 "" H 4600 5250 50  0000 C CNN
+	1    4600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE98B
+P 4600 6600
+F 0 "#PWR?" H 4600 6350 50  0001 C CNN
+F 1 "GND" H 4600 6450 50  0000 C CNN
+F 2 "" H 4600 6600 50  0000 C CNN
+F 3 "" H 4600 6600 50  0000 C CNN
+	1    4600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE98C
+P 3900 6600
+F 0 "#PWR?" H 3900 6350 50  0001 C CNN
+F 1 "GND" H 3900 6450 50  0000 C CNN
+F 2 "" H 3900 6600 50  0000 C CNN
+F 3 "" H 3900 6600 50  0000 C CNN
+	1    3900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE98D
+P 3600 6600
+F 0 "#PWR?" H 3600 6350 50  0001 C CNN
+F 1 "GND" H 3600 6450 50  0000 C CNN
+F 2 "" H 3600 6600 50  0000 C CNN
+F 3 "" H 3600 6600 50  0000 C CNN
+	1    3600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE98E
+P 5200 6200
+F 0 "C?" H 5210 6270 50  0000 L CNN
+F 1 "18p" H 5210 6120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5200 6200 50  0001 C CNN
+F 3 "" H 5200 6200 50  0000 C CNN
+	1    5200 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6100 5200 6000
+Connection ~ 5200 6000
+$Comp
+L GND #PWR?
+U 1 1 58BDE98F
+P 5200 6350
+F 0 "#PWR?" H 5200 6100 50  0001 C CNN
+F 1 "GND" H 5200 6200 50  0000 C CNN
+F 2 "" H 5200 6350 50  0000 C CNN
+F 3 "" H 5200 6350 50  0000 C CNN
+	1    5200 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6300 5200 6350
+Text Notes 3550 7650 0    140  ~ 0
+Voltage Sense 3\n\n
+$Comp
+L R R?
+U 1 1 58BDE990
+P 11450 5350
+F 0 "R?" V 11530 5350 50  0000 C CNN
+F 1 "1M" V 11450 5350 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 11380 5350 50  0001 C CNN
+F 3 "" H 11450 5350 50  0000 C CNN
+	1    11450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58BDE991
+P 11450 6250
+F 0 "R?" V 11530 6250 50  0000 C CNN
+F 1 "7.5k" V 11450 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11380 6250 50  0001 C CNN
+F 3 "" H 11450 6250 50  0000 C CNN
+	1    11450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE992
+P 11750 6100
+F 0 "C?" H 11760 6170 50  0000 L CNN
+F 1 "100p" H 11760 6020 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 11750 6100 50  0001 C CNN
+F 3 "" H 11750 6100 50  0000 C CNN
+	1    11750 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 5500 11450 6100
+Wire Wire Line
+	11450 6400 11450 6550
+Wire Wire Line
+	11750 6200 11750 6550
+Text GLabel 11450 5100 1    60   Input ~ 0
+V_in_4
+Wire Wire Line
+	11450 5200 11450 5100
+Text GLabel 13150 5950 2    39   Output ~ 0
+ADC_4
+Wire Wire Line
+	12450 6250 12450 6550
+$Comp
+L MCP6004 U?
+U 1 1 58BDE993
+P 12550 5950
+F 0 "U?" H 12600 6150 50  0000 C CNN
+F 1 "TSV524A" H 12700 5750 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 12500 6050 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/94/16/69/af/4b/58/DM00047334.pdf/files/DM00047334.pdf/jcr:content/translations/en.DM00047334.pdf" H 12600 6150 50  0001 C CNN
+	1    12550 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 6000 11750 5850
+Wire Wire Line
+	12850 5950 13150 5950
+Wire Wire Line
+	12250 6050 12050 6050
+Wire Wire Line
+	12050 6050 12050 6350
+Wire Wire Line
+	12050 6350 12900 6350
+Wire Wire Line
+	12900 6350 12900 5950
+Connection ~ 12900 5950
+Wire Wire Line
+	12450 5200 12450 5650
+Wire Wire Line
+	11450 5850 12250 5850
+Connection ~ 11450 5850
+Connection ~ 11750 5850
+$Comp
+L +3.3V #PWR?
+U 1 1 58BDE994
+P 12450 5200
+F 0 "#PWR?" H 12450 5050 50  0001 C CNN
+F 1 "+3.3V" H 12450 5340 50  0000 C CNN
+F 2 "" H 12450 5200 50  0000 C CNN
+F 3 "" H 12450 5200 50  0000 C CNN
+	1    12450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE995
+P 12450 6550
+F 0 "#PWR?" H 12450 6300 50  0001 C CNN
+F 1 "GND" H 12450 6400 50  0000 C CNN
+F 2 "" H 12450 6550 50  0000 C CNN
+F 3 "" H 12450 6550 50  0000 C CNN
+	1    12450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE996
+P 11750 6550
+F 0 "#PWR?" H 11750 6300 50  0001 C CNN
+F 1 "GND" H 11750 6400 50  0000 C CNN
+F 2 "" H 11750 6550 50  0000 C CNN
+F 3 "" H 11750 6550 50  0000 C CNN
+	1    11750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58BDE997
+P 11450 6550
+F 0 "#PWR?" H 11450 6300 50  0001 C CNN
+F 1 "GND" H 11450 6400 50  0000 C CNN
+F 2 "" H 11450 6550 50  0000 C CNN
+F 3 "" H 11450 6550 50  0000 C CNN
+	1    11450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58BDE998
+P 13050 6150
+F 0 "C?" H 13060 6220 50  0000 L CNN
+F 1 "18p" H 13060 6070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 13050 6150 50  0001 C CNN
+F 3 "" H 13050 6150 50  0000 C CNN
+	1    13050 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 6050 13050 5950
+Connection ~ 13050 5950
+$Comp
+L GND #PWR?
+U 1 1 58BDE999
+P 13050 6300
+F 0 "#PWR?" H 13050 6050 50  0001 C CNN
+F 1 "GND" H 13050 6150 50  0000 C CNN
+F 2 "" H 13050 6300 50  0000 C CNN
+F 3 "" H 13050 6300 50  0000 C CNN
+	1    13050 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 6250 13050 6300
+Text Notes 11600 7550 0    140  ~ 0
+Voltage Sense 4\n
+Wire Notes Line
+	8300 1250 8300 7500
+Wire Notes Line
+	1800 4300 15350 4300
+Text Notes 7360 945  0    180  ~ 0
+Voltage Sense
+$EndSCHEMATC
