@@ -348,9 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	6805 3110 6805 3015
 Wire Wire Line
-	6645 3015 6805 3015
-Wire Wire Line
-	6805 3015 6950 3015
+	6645 3015 6950 3015
 Wire Wire Line
 	7155 3005 7070 3005
 Wire Wire Line
@@ -362,17 +360,11 @@ Wire Wire Line
 Wire Wire Line
 	7155 2590 6515 2590
 Wire Wire Line
-	5825 4960 7485 4960
-Wire Wire Line
-	7485 4960 7655 4960
+	5825 4960 7655 4960
 Wire Wire Line
 	7485 5255 7485 5215
 Wire Wire Line
-	8355 3405 8480 3405
-Wire Wire Line
-	8480 3405 8680 3405
-Wire Wire Line
-	8680 3405 9135 3405
+	8355 3405 9135 3405
 Wire Wire Line
 	8680 3480 8680 3405
 Connection ~ 8680 3405
@@ -389,9 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3205 7050 3330
 Wire Wire Line
-	7050 3330 6805 3330
-Wire Wire Line
-	6805 3330 6695 3330
+	7050 3330 6695 3330
 Wire Wire Line
 	6805 3310 6805 3330
 Connection ~ 6805 3330
@@ -400,9 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	7030 3505 7030 3745
 Wire Wire Line
-	7030 3745 6800 3745
-Wire Wire Line
-	6800 3745 6655 3745
+	7030 3745 6655 3745
 Wire Wire Line
 	6805 3720 6805 3745
 Wire Wire Line
@@ -413,39 +401,25 @@ Wire Wire Line
 Wire Wire Line
 	6905 3405 6905 3505
 Wire Wire Line
-	6905 3505 6805 3505
-Wire Wire Line
-	6805 3505 6700 3505
+	6905 3505 6700 3505
 Wire Wire Line
 	6805 3520 6805 3505
 Connection ~ 6805 3505
 Wire Wire Line
 	8680 3705 8680 3680
 Wire Wire Line
-	8355 3705 8480 3705
+	8355 3705 8680 3705
 Wire Wire Line
-	8480 3705 8680 3705
-Wire Wire Line
-	8480 4205 8480 3705
-Wire Wire Line
-	8480 3705 8480 3675
+	8480 4205 8480 3675
 Connection ~ 8480 3705
 Wire Wire Line
 	9135 3405 9135 4960
 Wire Wire Line
-	9135 4960 8455 4960
+	8455 4960 9220 4960
 Wire Wire Line
-	6810 4205 7040 4205
+	6810 4205 8480 4205
 Wire Wire Line
-	7040 4205 7755 4205
-Wire Wire Line
-	7755 4205 8480 4205
-Wire Wire Line
-	7755 2240 7755 2395
-Wire Wire Line
-	7755 2395 7755 2530
-Wire Wire Line
-	7755 2530 7755 2605
+	7755 2240 7755 2605
 Wire Wire Line
 	8055 5350 8055 5310
 Wire Wire Line
@@ -455,11 +429,7 @@ Wire Wire Line
 	6810 4205 6810 4190
 Connection ~ 7040 4205
 Wire Wire Line
-	5825 3905 6810 3905
-Wire Wire Line
-	6810 3905 7040 3905
-Wire Wire Line
-	7040 3905 7155 3905
+	5825 3905 7155 3905
 Wire Wire Line
 	7040 3905 7040 3985
 Wire Wire Line
@@ -491,9 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	7755 2395 5825 2395
 Wire Wire Line
-	5825 2395 5825 3905
-Wire Wire Line
-	5825 3905 5825 4960
+	5825 2395 5825 4960
 Connection ~ 7755 2395
 Wire Wire Line
 	7485 5015 7485 4960
@@ -517,4 +485,7 @@ Wire Wire Line
 Connection ~ 7755 2530
 Wire Wire Line
 	8075 2530 8025 2530
+Text GLabel 9220 4960 2    60   Input ~ 0
+Vref
+Connection ~ 9135 4960
 $EndSCHEMATC
