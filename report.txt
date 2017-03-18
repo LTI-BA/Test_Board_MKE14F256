@@ -1,0 +1,8 @@
+Info: Reading netlist file "C:\Users\Lanwer\Desktop\Hiwi_LTI\Test_Board_MKE14F256\Test_Board_MKE14F256.net".
+
+Info: Using references to match components and footprints.
+
+Error: Component 'D8' footprint 'SOT-323' was not found in any libraries in the footprint library table.
+
+Error: Component 'D7' footprint 'SOT-323' was not found in any libraries in the footprint library table.
+
