@@ -788,13 +788,13 @@ ADC_SPI1_CS0
 Text GLabel 11060 2560 2    60   Input ~ 0
 ADC_PDEN
 Text GLabel 10960 3460 2    39   Input ~ 0
-ADC_1
-Text GLabel 10960 3610 2    39   Input ~ 0
-ADC_2
-Text GLabel 10960 3760 2    39   Input ~ 0
 ADC_3
-Text GLabel 10960 3910 2    39   Input ~ 0
+Text GLabel 10960 3610 2    39   Input ~ 0
+ADC_1
+Text GLabel 10960 3760 2    39   Input ~ 0
 ADC_4
+Text GLabel 10960 3910 2    39   Input ~ 0
+ADC_2
 Text GLabel 3780 6060 0    60   Input ~ 0
 Boost_Enable
 Text GLabel 8740 1970 0    30   Input ~ 0

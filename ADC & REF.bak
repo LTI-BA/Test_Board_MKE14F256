@@ -58,9 +58,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 6345 3745 0    60   Input ~ 0
-ADC_1
+OpAmp_Out4
 Text GLabel 6335 3015 0    60   Input ~ 0
-ADC_2
+OpAmp_Out2
 $Comp
 L R_Small R5
 U 1 1 58B84E5D

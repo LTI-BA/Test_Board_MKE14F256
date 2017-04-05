@@ -90,14 +90,6 @@ F 3 "" H 4330 2610 50  0000 C CNN
 	1    4330 2610
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4030 2010 4030 2610
-Wire Wire Line
-	4030 2910 4030 3060
-Wire Wire Line
-	4330 2710 4330 3060
-Wire Wire Line
-	4030 1710 4030 1610
 Text GLabel 5985 2460 2    39   Output ~ 0
 ADC_1
 $Comp
@@ -111,11 +103,6 @@ F 3 "" H 5180 1960 50  0000 C CNN
 	1    5180 1960
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5030 1960
-Wire Wire Line
-	5280 1960 5430 1960
-Wire Wire Line
-	5030 2760 5030 3060
 $Comp
 L MCP6004 U6
 U 1 1 58BDE974
@@ -127,24 +114,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/9
 	1    5130 2460
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4330 2510 4330 2360
-Wire Wire Line
-	5080 1960 5030 1960
-Wire Wire Line
-	4830 2560 4630 2560
-Wire Wire Line
-	4630 2560 4630 2860
-Wire Wire Line
-	4630 2860 5480 2860
-Wire Wire Line
-	5480 2860 5480 2460
-Wire Wire Line
-	5030 1710 5030 2160
-Wire Wire Line
-	4030 2360 4830 2360
-Connection ~ 4030 2360
-Connection ~ 4330 2360
 $Comp
 L +3.3V #PWR022
 U 1 1 58BDE975
@@ -211,9 +180,6 @@ F 3 "" H 5885 2660 50  0000 C CNN
 	1    5885 2660
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5885 2560 5885 2460
-Connection ~ 5885 2460
 $Comp
 L GND #PWR027
 U 1 1 58BDE97B
@@ -225,8 +191,6 @@ F 3 "" H 5885 2810 50  0000 C CNN
 	1    5885 2810
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5885 2760 5885 2810
 Text Notes 3980 4060 0    140  ~ 0
 Voltage Sense 1\n
 $Comp
@@ -262,20 +226,10 @@ F 3 "" H 12230 2610 50  0000 C CNN
 	1    12230 2610
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11930 2010 11930 2610
-Wire Wire Line
-	11930 2910 11930 3060
-Wire Wire Line
-	12230 2710 12230 3060
 Text GLabel 11930 1610 1    60   Input ~ 0
 V_in_2
-Wire Wire Line
-	11930 1710 11930 1610
 Text GLabel 13875 2460 2    39   Output ~ 0
 ADC_2
-Wire Wire Line
-	12930 2760 12930 3060
 $Comp
 L MCP6004 U6
 U 3 1 58BDE97F
@@ -287,27 +241,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/9
 	3    13030 2460
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12230 2510 12230 2360
-Wire Wire Line
-	13330 2460 13430 2460
-Wire Wire Line
-	13730 2460 13875 2460
-Wire Wire Line
-	12730 2560 12530 2560
-Wire Wire Line
-	12530 2560 12530 2860
-Wire Wire Line
-	12530 2860 13380 2860
-Wire Wire Line
-	13380 2860 13380 2460
-Connection ~ 13380 2460
-Wire Wire Line
-	12930 1710 12930 2160
-Wire Wire Line
-	11930 2360 12730 2360
-Connection ~ 11930 2360
-Connection ~ 12230 2360
 $Comp
 L +3.3V #PWR028
 U 1 1 58BDE980
@@ -363,9 +296,6 @@ F 3 "" H 13775 2660 50  0000 C CNN
 	1    13775 2660
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13775 2560 13775 2460
-Connection ~ 13775 2460
 $Comp
 L GND #PWR032
 U 1 1 58BDE985
@@ -377,8 +307,6 @@ F 3 "" H 13775 2810 50  0000 C CNN
 	1    13775 2810
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13775 2760 13775 2810
 Text Notes 11930 4210 0    140  ~ 0
 Voltage Sense 2\n\n
 $Comp
@@ -414,20 +342,10 @@ F 3 "" H 4380 6160 50  0000 C CNN
 	1    4380 6160
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4080 5560 4080 6160
-Wire Wire Line
-	4080 6460 4080 6610
-Wire Wire Line
-	4380 6260 4380 6610
 Text GLabel 4080 5160 1    60   Input ~ 0
 V_in_3
-Wire Wire Line
-	4080 5260 4080 5160
 Text GLabel 6030 6010 2    39   Output ~ 0
 ADC_3
-Wire Wire Line
-	5080 6310 5080 6610
 $Comp
 L MCP6004 U6
 U 2 1 58BDE989
@@ -439,25 +357,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/9
 	2    5180 6010
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4380 6060 4380 5910
-Wire Wire Line
-	5480 6010 5585 6010
-Wire Wire Line
-	4880 6110 4680 6110
-Wire Wire Line
-	4680 6110 4680 6410
-Wire Wire Line
-	4680 6410 5530 6410
-Wire Wire Line
-	5530 6410 5530 6010
-Connection ~ 5530 6010
-Wire Wire Line
-	5080 5260 5080 5710
-Wire Wire Line
-	4080 5910 4880 5910
-Connection ~ 4080 5910
-Connection ~ 4380 5910
 $Comp
 L +3.3V #PWR033
 U 1 1 58BDE98A
@@ -524,8 +423,6 @@ F 3 "" H 5930 6360 50  0000 C CNN
 	1    5930 6360
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5930 6310 5930 6360
 Text Notes 4030 7660 0    140  ~ 0
 Voltage Sense 3\n\n
 $Comp
@@ -561,20 +458,10 @@ F 3 "" H 12230 6110 50  0000 C CNN
 	1    12230 6110
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11930 5510 11930 6110
-Wire Wire Line
-	11930 6410 11930 6560
-Wire Wire Line
-	12230 6210 12230 6560
 Text GLabel 11930 5110 1    60   Input ~ 0
 V_in_4
-Wire Wire Line
-	11930 5210 11930 5110
 Text GLabel 13875 5960 2    39   Output ~ 0
 ADC_4
-Wire Wire Line
-	12930 6260 12930 6560
 $Comp
 L MCP6004 U6
 U 4 1 58BDE993
@@ -586,27 +473,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/9
 	4    13030 5960
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12230 6010 12230 5860
-Wire Wire Line
-	13330 5960 13430 5960
-Wire Wire Line
-	13730 5960 13875 5960
-Wire Wire Line
-	12730 6060 12530 6060
-Wire Wire Line
-	12530 6060 12530 6360
-Wire Wire Line
-	12530 6360 13380 6360
-Wire Wire Line
-	13380 6360 13380 5960
-Connection ~ 13380 5960
-Wire Wire Line
-	12930 5210 12930 5660
-Wire Wire Line
-	11930 5860 12730 5860
-Connection ~ 11930 5860
-Connection ~ 12230 5860
 $Comp
 L +3.3V #PWR038
 U 1 1 58BDE994
@@ -662,9 +528,6 @@ F 3 "" H 13775 6160 50  0000 C CNN
 	1    13775 6160
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13775 6060 13775 5960
-Connection ~ 13775 5960
 $Comp
 L GND #PWR042
 U 1 1 58BDE999
@@ -676,28 +539,18 @@ F 3 "" H 13775 6310 50  0000 C CNN
 	1    13775 6310
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13775 6260 13775 6310
 Text Notes 12080 7560 0    140  ~ 0
 Voltage Sense 4\n
-Wire Notes Line
-	8780 1260 8780 7510
-Wire Notes Line
-	2280 4310 15830 4310
 Text Notes 7360 945  0    180  ~ 0
 Voltage Sense
 Text Notes 3015 8970 0    100  ~ 0
 Hier noch 1 von den EIngängen mit Vin (vin kann bis 40V hochgehen) und (vielleicht eins noch mit 3.3V verbinden, die restlichen mit connectoren verbinden 
-Text GLabel 1325 4445 2    60   Input ~ 0
-V_in_2
-Wire Notes Line
-	2125 1355 2125 7490
-Wire Notes Line
-	2125 7490 2145 7490
-Text GLabel 1325 4645 2    60   Input ~ 0
-V_in_3
-Text GLabel 1325 4845 2    60   Input ~ 0
+Text GLabel 1330 4445 2    60   Input ~ 0
 V_in_4
+Text GLabel 1325 4645 2    60   Input ~ 0
+V_in_2
+Text GLabel 1325 4845 2    60   Input ~ 0
+V_in_3
 $Comp
 L +3.3V #PWR043
 U 1 1 58C3E0DE
@@ -720,16 +573,6 @@ F 3 "" H 1025 4645 50  0000 C CNN
 	1    1025 4645
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1330 4445 1225 4445
-Wire Wire Line
-	1325 4645 1225 4645
-Wire Wire Line
-	1325 4845 1225 4845
-Wire Wire Line
-	1225 4745 1270 4745
-Wire Wire Line
-	1225 4545 1270 4545
 $Comp
 L GND #PWR044
 U 1 1 58C7F1E0
@@ -741,9 +584,6 @@ F 3 "" H 1270 4940 50  0000 C CNN
 	1    1270 4940
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1270 4545 1270 4940
-Connection ~ 1270 4745
 $Comp
 L R R29
 U 1 1 58C82336
@@ -755,11 +595,6 @@ F 3 "" H 5670 2460 50  0000 C CNN
 	1    5670 2460
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5430 2460 5520 2460
-Connection ~ 5480 2460
-Wire Wire Line
-	5820 2460 5985 2460
 $Comp
 L R R31
 U 1 1 58C83943
@@ -793,9 +628,218 @@ F 3 "" H 5735 6010 50  0000 C CNN
 	1    5735 6010
 	0    1    1    0   
 $EndComp
+Text GLabel 13380 2320 1    60   Input ~ 0
+OpAmp_Out2
 Wire Wire Line
-	5885 6010 6030 6010
+	4030 2010 4030 2360
+Wire Wire Line
+	4030 2360 4030 2610
+Wire Wire Line
+	4030 2910 4030 3060
+Wire Wire Line
+	4330 2710 4330 3060
+Wire Wire Line
+	4030 1710 4030 1610
+Connection ~ 5030 1960
+Wire Wire Line
+	5280 1960 5430 1960
+Wire Wire Line
+	5030 2760 5030 3060
+Wire Wire Line
+	4330 2510 4330 2360
+Wire Wire Line
+	5080 1960 5030 1960
+Wire Wire Line
+	4830 2560 4630 2560
+Wire Wire Line
+	4630 2560 4630 2860
+Wire Wire Line
+	4630 2860 5480 2860
+Wire Wire Line
+	5480 2860 5480 2460
+Wire Wire Line
+	5030 1710 5030 1960
+Wire Wire Line
+	5030 1960 5030 2160
+Wire Wire Line
+	4030 2360 4330 2360
+Wire Wire Line
+	4330 2360 4830 2360
+Connection ~ 4030 2360
+Connection ~ 4330 2360
+Wire Wire Line
+	5885 2560 5885 2460
+Connection ~ 5885 2460
+Wire Wire Line
+	5885 2760 5885 2810
+Wire Wire Line
+	11930 2010 11930 2360
+Wire Wire Line
+	11930 2360 11930 2610
+Wire Wire Line
+	11930 2910 11930 3060
+Wire Wire Line
+	12230 2710 12230 3060
+Wire Wire Line
+	11930 1710 11930 1610
+Wire Wire Line
+	12930 2760 12930 3060
+Wire Wire Line
+	12230 2510 12230 2360
+Wire Wire Line
+	13330 2460 13380 2460
+Wire Wire Line
+	13380 2460 13430 2460
+Wire Wire Line
+	13730 2460 13775 2460
+Wire Wire Line
+	13775 2460 13875 2460
+Wire Wire Line
+	12730 2560 12530 2560
+Wire Wire Line
+	12530 2560 12530 2860
+Wire Wire Line
+	13380 2860 12530 2860
+Wire Wire Line
+	13380 2320 13380 2460
+Wire Wire Line
+	13380 2460 13380 2860
+Connection ~ 13380 2460
+Wire Wire Line
+	12930 1710 12930 2160
+Wire Wire Line
+	11930 2360 12230 2360
+Wire Wire Line
+	12230 2360 12730 2360
+Connection ~ 11930 2360
+Connection ~ 12230 2360
+Wire Wire Line
+	13775 2560 13775 2460
+Connection ~ 13775 2460
+Wire Wire Line
+	13775 2760 13775 2810
+Wire Wire Line
+	4080 5560 4080 5910
+Wire Wire Line
+	4080 5910 4080 6160
+Wire Wire Line
+	4080 6460 4080 6610
+Wire Wire Line
+	4380 6260 4380 6610
+Wire Wire Line
+	4080 5260 4080 5160
+Wire Wire Line
+	5080 6310 5080 6610
+Wire Wire Line
+	4380 6060 4380 5910
+Wire Wire Line
+	5480 6010 5530 6010
+Wire Wire Line
+	5530 6010 5585 6010
+Wire Wire Line
+	4880 6110 4680 6110
+Wire Wire Line
+	4680 6110 4680 6410
+Wire Wire Line
+	4680 6410 5530 6410
+Wire Wire Line
+	5530 6410 5530 6010
+Connection ~ 5530 6010
+Wire Wire Line
+	5080 5260 5080 5710
+Wire Wire Line
+	4080 5910 4380 5910
+Wire Wire Line
+	4380 5910 4880 5910
+Connection ~ 4080 5910
+Connection ~ 4380 5910
+Wire Wire Line
+	5930 6310 5930 6360
+Wire Wire Line
+	11930 5510 11930 5860
+Wire Wire Line
+	11930 5860 11930 6110
+Wire Wire Line
+	11930 6410 11930 6560
+Wire Wire Line
+	12230 6210 12230 6560
+Wire Wire Line
+	11930 5210 11930 5110
+Wire Wire Line
+	12930 6260 12930 6560
+Wire Wire Line
+	12230 6010 12230 5860
+Wire Wire Line
+	13330 5960 13380 5960
+Wire Wire Line
+	13380 5960 13430 5960
+Wire Wire Line
+	13730 5960 13775 5960
+Wire Wire Line
+	13775 5960 13875 5960
+Wire Wire Line
+	12730 6060 12530 6060
+Wire Wire Line
+	12530 6060 12530 6360
+Wire Wire Line
+	13380 6360 12530 6360
+Wire Wire Line
+	13380 5825 13380 5960
+Wire Wire Line
+	13380 5960 13380 6360
+Connection ~ 13380 5960
+Wire Wire Line
+	12930 5210 12930 5660
+Wire Wire Line
+	11930 5860 12230 5860
+Wire Wire Line
+	12230 5860 12730 5860
+Connection ~ 11930 5860
+Connection ~ 12230 5860
+Wire Wire Line
+	13775 6060 13775 5960
+Connection ~ 13775 5960
+Wire Wire Line
+	13775 6260 13775 6310
+Wire Notes Line
+	8780 1260 8780 7510
+Wire Notes Line
+	2280 4310 15830 4310
+Wire Notes Line
+	2125 1355 2125 7490
+Wire Notes Line
+	2125 7490 2145 7490
+Wire Wire Line
+	1330 4445 1225 4445
+Wire Wire Line
+	1325 4645 1225 4645
+Wire Wire Line
+	1325 4845 1225 4845
+Wire Wire Line
+	1225 4745 1270 4745
+Wire Wire Line
+	1225 4545 1270 4545
+Wire Wire Line
+	1270 4545 1270 4745
+Wire Wire Line
+	1270 4745 1270 4940
+Connection ~ 1270 4745
+Wire Wire Line
+	5430 2460 5480 2460
+Wire Wire Line
+	5480 2460 5520 2460
+Connection ~ 5480 2460
+Wire Wire Line
+	5820 2460 5885 2460
+Wire Wire Line
+	5885 2460 5985 2460
+Wire Wire Line
+	5885 6010 5930 6010
+Wire Wire Line
+	5930 6010 6030 6010
 Wire Wire Line
 	5930 6110 5930 6010
 Connection ~ 5930 6010
+Text GLabel 13380 5825 1    60   Input ~ 0
+OpAmp_Out4
 $EndSCHEMATC
