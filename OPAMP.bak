@@ -631,9 +631,7 @@ $EndComp
 Text GLabel 13380 2320 1    60   Input ~ 0
 OpAmp_Out2
 Wire Wire Line
-	4030 2010 4030 2360
-Wire Wire Line
-	4030 2360 4030 2610
+	4030 2010 4030 2610
 Wire Wire Line
 	4030 2910 4030 3060
 Wire Wire Line
@@ -658,13 +656,9 @@ Wire Wire Line
 Wire Wire Line
 	5480 2860 5480 2460
 Wire Wire Line
-	5030 1710 5030 1960
+	5030 1710 5030 2160
 Wire Wire Line
-	5030 1960 5030 2160
-Wire Wire Line
-	4030 2360 4330 2360
-Wire Wire Line
-	4330 2360 4830 2360
+	4030 2360 4830 2360
 Connection ~ 4030 2360
 Connection ~ 4330 2360
 Wire Wire Line
@@ -673,9 +667,7 @@ Connection ~ 5885 2460
 Wire Wire Line
 	5885 2760 5885 2810
 Wire Wire Line
-	11930 2010 11930 2360
-Wire Wire Line
-	11930 2360 11930 2610
+	11930 2010 11930 2610
 Wire Wire Line
 	11930 2910 11930 3060
 Wire Wire Line
@@ -687,13 +679,9 @@ Wire Wire Line
 Wire Wire Line
 	12230 2510 12230 2360
 Wire Wire Line
-	13330 2460 13380 2460
+	13330 2460 13430 2460
 Wire Wire Line
-	13380 2460 13430 2460
-Wire Wire Line
-	13730 2460 13775 2460
-Wire Wire Line
-	13775 2460 13875 2460
+	13730 2460 13875 2460
 Wire Wire Line
 	12730 2560 12530 2560
 Wire Wire Line
@@ -701,16 +689,12 @@ Wire Wire Line
 Wire Wire Line
 	13380 2860 12530 2860
 Wire Wire Line
-	13380 2320 13380 2460
-Wire Wire Line
-	13380 2460 13380 2860
+	13380 2320 13380 2860
 Connection ~ 13380 2460
 Wire Wire Line
 	12930 1710 12930 2160
 Wire Wire Line
-	11930 2360 12230 2360
-Wire Wire Line
-	12230 2360 12730 2360
+	11930 2360 12730 2360
 Connection ~ 11930 2360
 Connection ~ 12230 2360
 Wire Wire Line
@@ -719,9 +703,7 @@ Connection ~ 13775 2460
 Wire Wire Line
 	13775 2760 13775 2810
 Wire Wire Line
-	4080 5560 4080 5910
-Wire Wire Line
-	4080 5910 4080 6160
+	4080 5560 4080 6160
 Wire Wire Line
 	4080 6460 4080 6610
 Wire Wire Line
@@ -733,9 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	4380 6060 4380 5910
 Wire Wire Line
-	5480 6010 5530 6010
-Wire Wire Line
-	5530 6010 5585 6010
+	5480 6010 5585 6010
 Wire Wire Line
 	4880 6110 4680 6110
 Wire Wire Line
@@ -748,17 +728,13 @@ Connection ~ 5530 6010
 Wire Wire Line
 	5080 5260 5080 5710
 Wire Wire Line
-	4080 5910 4380 5910
-Wire Wire Line
-	4380 5910 4880 5910
+	4080 5910 4880 5910
 Connection ~ 4080 5910
 Connection ~ 4380 5910
 Wire Wire Line
 	5930 6310 5930 6360
 Wire Wire Line
-	11930 5510 11930 5860
-Wire Wire Line
-	11930 5860 11930 6110
+	11930 5510 11930 6110
 Wire Wire Line
 	11930 6410 11930 6560
 Wire Wire Line
@@ -770,13 +746,9 @@ Wire Wire Line
 Wire Wire Line
 	12230 6010 12230 5860
 Wire Wire Line
-	13330 5960 13380 5960
+	13330 5960 13430 5960
 Wire Wire Line
-	13380 5960 13430 5960
-Wire Wire Line
-	13730 5960 13775 5960
-Wire Wire Line
-	13775 5960 13875 5960
+	13730 5960 13875 5960
 Wire Wire Line
 	12730 6060 12530 6060
 Wire Wire Line
@@ -784,16 +756,12 @@ Wire Wire Line
 Wire Wire Line
 	13380 6360 12530 6360
 Wire Wire Line
-	13380 5825 13380 5960
-Wire Wire Line
-	13380 5960 13380 6360
+	13380 5825 13380 6360
 Connection ~ 13380 5960
 Wire Wire Line
 	12930 5210 12930 5660
 Wire Wire Line
-	11930 5860 12230 5860
-Wire Wire Line
-	12230 5860 12730 5860
+	11930 5860 12730 5860
 Connection ~ 11930 5860
 Connection ~ 12230 5860
 Wire Wire Line
@@ -820,23 +788,15 @@ Wire Wire Line
 Wire Wire Line
 	1225 4545 1270 4545
 Wire Wire Line
-	1270 4545 1270 4745
-Wire Wire Line
-	1270 4745 1270 4940
+	1270 4545 1270 4940
 Connection ~ 1270 4745
 Wire Wire Line
-	5430 2460 5480 2460
-Wire Wire Line
-	5480 2460 5520 2460
+	5430 2460 5520 2460
 Connection ~ 5480 2460
 Wire Wire Line
-	5820 2460 5885 2460
+	5820 2460 5985 2460
 Wire Wire Line
-	5885 2460 5985 2460
-Wire Wire Line
-	5885 6010 5930 6010
-Wire Wire Line
-	5930 6010 6030 6010
+	5885 6010 6030 6010
 Wire Wire Line
 	5930 6110 5930 6010
 Connection ~ 5930 6010
