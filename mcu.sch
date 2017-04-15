@@ -1312,9 +1312,9 @@ Wire Wire Line
 Text GLabel 14880 2250 0    60   Output ~ 0
 PWM_LS
 Text GLabel 15165 8075 0    60   Input ~ 0
-PWM_HS
-Text GLabel 15165 8375 0    60   Input ~ 0
 PWM_LS
+Text GLabel 15165 8375 0    60   Input ~ 0
+PWM_HS
 $Comp
 L CONN_01X04 P28
 U 1 1 58CA6F8A
