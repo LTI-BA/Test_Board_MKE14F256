@@ -422,7 +422,7 @@ F 3 "" H 785 3510 50  0000 C CNN
 	1    785  3510
 	-1   0    0    1   
 $EndComp
-Text GLabel 1070 3460 2    60   Input ~ 0
+Text GLabel 1075 3630 2    60   Input ~ 0
 DC_Vin
 $Comp
 L D_Schottky_Small D1
@@ -629,8 +629,6 @@ Connection ~ 8165 2320
 Wire Notes Line
 	1550 1060 1550 5965
 Wire Wire Line
-	1070 3460 985  3460
-Wire Wire Line
 	9870 2320 10545 2320
 Wire Wire Line
 	9870 1885 9870 2360
@@ -651,16 +649,18 @@ Connection ~ 3665 2745
 $Comp
 L GND #PWR012
 U 1 1 58C408F7
-P 1075 3595
-F 0 "#PWR012" H 1075 3345 50  0001 C CNN
-F 1 "GND" H 1075 3445 50  0000 C CNN
-F 2 "" H 1075 3595 50  0000 C CNN
-F 3 "" H 1075 3595 50  0000 C CNN
-	1    1075 3595
-	1    0    0    -1  
+P 985 3460
+F 0 "#PWR012" H 985 3210 50  0001 C CNN
+F 1 "GND" H 985 3310 50  0000 C CNN
+F 2 "" H 985 3460 50  0000 C CNN
+F 3 "" H 985 3460 50  0000 C CNN
+	1    985  3460
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1075 3595 1075 3560
+	1075 3630 1025 3630
 Wire Wire Line
-	1075 3560 985  3560
+	1025 3630 1025 3560
+Wire Wire Line
+	1025 3560 985  3560
 $EndSCHEMATC
