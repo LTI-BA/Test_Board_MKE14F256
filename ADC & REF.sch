@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Test_Board_MKE14F256-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
